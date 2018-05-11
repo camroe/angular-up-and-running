@@ -44,7 +44,11 @@ this.stock = new Stock('test Stock Company', 'TSC', 85,84);
     // };
   }
 
-  toggleFavorite(event, index) {
+  toggleFavoriteSingle(event) {
+    console.log('We are toggling the favorite state for this stock:',event,this.stock.favorite);
+    this.stock.favorite = !this.stock.favorite;
+  }
+  toggleFavorite(event,index) {
     console.log('We are toggling the favorite state for this stock:',index,event,this.stocks[index].favorite);
     this.stocks[index].favorite = !this.stocks[index].favorite;
     console.log('After the toggle, the flag is ', this.stocks[index].favorite);

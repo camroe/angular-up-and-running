@@ -1,4 +1,3 @@
-
 <!--*ngFor="let stock of stocks; index as i; trackBy: trackStockByCode">-->
 <div class="stock-container">
 
@@ -12,13 +11,12 @@
   <!--[class]="stock.isPositiveChange() ? 'positive' : 'negative'">${{stock.price}}-->
   <!--[ngClass]="stock.getClasses()">$ {{stock.price}}-->
   <div class="price"
-       [ngClass] = "stockClasses">$ {{stock.price}}
+       [ngClass]="stockClasses">$ {{stock.price}}
   </div>
 
   <!--[disabled]="stock.favorite">Add to Favorite-->
-  <!--*ngIf="!stock.favorite">Add to Favorite</button>-->
-  <button (click)="toggleFavorite($event,i)"
-          [disabled]="stock.favorite">Add to Favorites
+  <!--[disabled]="stock.favorite">Add to Favorites-->
+  <button (click)="toggleFavoriteSingle($event)"
+          *ngIf="!stock.favorite">Add to Favorite
   </button>
-
 </div>
