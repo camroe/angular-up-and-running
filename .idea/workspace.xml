@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230f8728-e627-4eea-a81e-b1070054813e" name="Default" comment="" />
+    <list default="true" id="230f8728-e627-4eea-a81e-b1070054813e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/stock-market/src/app/model/stock.ts" afterPath="$PROJECT_DIR$/stock-market/src/app/model/stock.ts" />
+      <change beforePath="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html" afterPath="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html" />
+      <change beforePath="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.ts" afterPath="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.ts" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +21,28 @@
           <file leaf-file-name="stock.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stock-market/src/app/model/stock.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+                <state relative-caret-position="495">
+                  <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="stock-item.component.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="stock-item.component.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stock-item.component.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -40,8 +55,8 @@
           <file leaf-file-name="stock-item.component.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="45" column="79" lean-forward="false" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
                   <folding>
                     <element signature="e#0#48#0" expanded="true" />
                   </folding>
@@ -66,11 +81,11 @@
       <list>
         <option value="$PROJECT_DIR$/stock-market/src/index.html" />
         <option value="$PROJECT_DIR$/stock-market/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.css" />
         <option value="/AngularJS Fragment (stock-item.component.html:37).js" />
-        <option value="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html" />
-        <option value="$PROJECT_DIR$/stock-market/src/app/model/stock.ts" />
         <option value="$PROJECT_DIR$/stock-market/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/stock-market/src/app/model/stock.ts" />
+        <option value="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html" />
+        <option value="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.css" />
         <option value="$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.ts" />
       </list>
     </option>
@@ -311,12 +326,12 @@
       <workItem from="1523315173027" duration="593000" />
       <workItem from="1523385065027" duration="589000" />
       <workItem from="1523568606668" duration="50000" />
-      <workItem from="1525989702542" duration="5335000" />
+      <workItem from="1525989702542" duration="9076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28103000" />
+    <option name="totallyTimeSpent" value="31844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,37 +680,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock-market/src/app/model/stock.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="495">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="79" lean-forward="false" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+        <state relative-caret-position="345">
+          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market/src/app/stock/stock-item/stock-item.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,14 +1,18 @@
 
-<div class="stock-container"
-     *ngFor="let stock of stocks; index as i; trackBy: trackStockByCode">
+<!--*ngFor="let stock of stocks; index as i; trackBy: trackStockByCode">-->
+<div class="stock-container">
 
   <div class="name"><h3>{{stock.name}}</h3> - <h4>({{stock.code}})</h4></div>
   <!--[class]="stock.isPositiveChange() ? 'positive' : 'negative'">$ {{stock.price}}
        Replaced by the following ngClass or ngStyle -->
   <!--[ngClass]="stockClasses">$ {{stock.price}}-->
   <!--[ngStyle]="stockStyles">$ {{stock.price}}-->
+
+
+  <!--[class]="stock.isPositiveChange() ? 'positive' : 'negative'">${{stock.price}}-->
+  <!--[ngClass]="stock.getClasses()">$ {{stock.price}}-->
   <div class="price"
-       [class]="stock.isPositiveChange() ? 'positive' : 'negative'">${{stock.price}}
+       [ngClass] = "stockClasses">$ {{stock.price}}
   </div>
 
   <!--[disabled]="stock.favorite">Add to Favorite-->
